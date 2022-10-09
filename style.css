@@ -33,7 +33,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
     padding: 0 30px;
 }
 
@@ -46,7 +46,7 @@ ul{
 
 .logo img{
     display: block;
-    width: 70%;
+    width: 60%;
     height: auto;
 }
 
@@ -58,21 +58,21 @@ ul{
 
 .destop-main-menu-left ul li{
     position: relative;
-    margin: 10px;
+    margin: 20px;
     font-size: 14px;
     font-weight: 700;
 }
 
 .destop-main-menu-right ul{
     display: flex;
-    width: 180px;
+    width: 190px;
     
 }
 
 .destop-main-menu-right ul li{
     position: relative;
     padding-bottom: 2px;
-    margin-left: 18px;
+    margin-left: 21px;
     font-size: 14px;
     font-weight: 700;
 }
@@ -97,7 +97,7 @@ ul{
     transform-origin: left center;
 }
 
-.section{
+section{
     position: relative;
     height: 100vh;
     background-position: center center;
