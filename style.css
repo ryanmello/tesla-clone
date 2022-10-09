@@ -97,4 +97,18 @@ ul{
     transform-origin: left center;
 }
 
+.section{
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-a{
+    background-image: url('../img/M3-Homepage-Desktop-LHD.jpg');
+}
+
+
 
