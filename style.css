@@ -1,5 +1,4 @@
-@import url('href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import url('href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Lato:wght@400;700;900&display=swap');
+@import url('href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap');
 
 *{
     margin: 0;
@@ -34,36 +33,68 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 50px;
     padding: 0 30px;
 }
 
 /* Logo */
 
 .logo {
-    width: 210px;
+    width: 180px;
     height: auto;
 }
 
 .logo img{
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
 /* Destop Main Menu */
 
-.destop-main-menu{
-    margin-right: 50px;
-}
-
-.destop-main-menu ul{
+.destop-main-menu-left ul{
     display: flex;
 }
 
-.destop-main-menu ul li{
+.destop-main-menu-left ul li{
     position: relative;
-    margin: 20px;
-    padding-bottom: 2px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.destop-main-menu-right ul{
+    display: flex;
+    width: 180px;
     
 }
+
+.destop-main-menu-right ul li{
+    position: relative;
+    padding-bottom: 2px;
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Menu item bottom border*/
+
+.destop-main-menu-left ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 200ms ease-in-out;
+    transform-origin: right center;
+}
+
+.destop-main-menu-left ul li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left center;
+}
+
+
