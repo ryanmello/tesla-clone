@@ -121,6 +121,8 @@ section{
     padding-bottom: 15vh;
     text-align: center;
     color: black;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
 }
 
 .section-inner h1{
@@ -131,6 +133,22 @@ section{
 .section-a{
     background-image: url('../img/M3-Homepage-Desktop-LHD.jpg');
 }
+
+.buttons{
+    max-width: 640px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.buttons a{
+    background-color: #eee;
+    padding: 12px 50px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
 
 
 
