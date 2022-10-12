@@ -126,12 +126,16 @@ section{
 }
 
 .section-inner h1{
-    font-size: 40px;
+    font-size: 45px;
     padding: 6px 0;
 }
 
 .section-a{
     background-image: url('../img/M3-Homepage-Desktop-LHD.jpg');
+}
+
+.section-b{
+    background-image: url('../img/Desktop-ModelY.jpg');
 }
 
 .buttons{
@@ -144,9 +148,14 @@ section{
 
 .buttons a{
     background-color: #eee;
-    padding: 12px 50px;
+    padding: 12px 80px;
     border-radius: 5px;
     font-size: 14px;
+}
+
+.buttons .custom{
+    background-color: #4b4b4b;
+    color: white;
 }
 
 
